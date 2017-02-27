@@ -14,7 +14,7 @@
 		AE9226951E5FDC3100205A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9226941E5FDC3100205A93 /* Assets.xcassets */; };
 		AE9226981E5FDC3100205A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9226961E5FDC3100205A93 /* LaunchScreen.storyboard */; };
 		AE9226A21E5FDD3900205A93 /* RoundWavesView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9226A11E5FDD3900205A93 /* RoundWavesView.m */; };
-		AEF80B621E63D7BE006EEDD4 /* 动画.mov in Resources */ = {isa = PBXBuildFile; fileRef = AEF80B611E63D7BE006EEDD4 /* 动画.mov */; };
+		AEF80B641E63D89B006EEDD4 /* 按钮波纹发散效果.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF80B631E63D89B006EEDD4 /* 按钮波纹发散效果.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		AE9226991E5FDC3100205A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE9226A01E5FDD3900205A93 /* RoundWavesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundWavesView.h; sourceTree = "<group>"; };
 		AE9226A11E5FDD3900205A93 /* RoundWavesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundWavesView.m; sourceTree = "<group>"; };
-		AEF80B611E63D7BE006EEDD4 /* 动画.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "动画.mov"; sourceTree = "<group>"; };
+		AEF80B631E63D89B006EEDD4 /* 按钮波纹发散效果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮波纹发散效果.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		AE9226871E5FDC3100205A93 /* RoundWaves */ = {
 			isa = PBXGroup;
 			children = (
-				AEF80B611E63D7BE006EEDD4 /* 动画.mov */,
+				AEF80B631E63D89B006EEDD4 /* 按钮波纹发散效果.png */,
 				AE92269F1E5FDCD400205A93 /* RoundWavesView */,
 				AE92268B1E5FDC3100205A93 /* AppDelegate.h */,
 				AE92268C1E5FDC3100205A93 /* AppDelegate.m */,
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9226981E5FDC3100205A93 /* LaunchScreen.storyboard in Resources */,
-				AEF80B621E63D7BE006EEDD4 /* 动画.mov in Resources */,
+				AEF80B641E63D89B006EEDD4 /* 按钮波纹发散效果.png in Resources */,
 				AE9226951E5FDC3100205A93 /* Assets.xcassets in Resources */,
 				AE9226931E5FDC3100205A93 /* Main.storyboard in Resources */,
 			);
