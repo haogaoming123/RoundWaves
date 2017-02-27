@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE92268A1E5FDC3100205A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9226891E5FDC3100205A93 /* main.m */; };
+		AE92268D1E5FDC3100205A93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92268C1E5FDC3100205A93 /* AppDelegate.m */; };
+		AE9226901E5FDC3100205A93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92268F1E5FDC3100205A93 /* ViewController.m */; };
+		AE9226931E5FDC3100205A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9226911E5FDC3100205A93 /* Main.storyboard */; };
+		AE9226951E5FDC3100205A93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9226941E5FDC3100205A93 /* Assets.xcassets */; };
+		AE9226981E5FDC3100205A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9226961E5FDC3100205A93 /* LaunchScreen.storyboard */; };
+		AE9226A21E5FDD3900205A93 /* RoundWavesView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9226A11E5FDD3900205A93 /* RoundWavesView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE9226851E5FDC3100205A93 /* RoundWaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundWaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9226891E5FDC3100205A93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE92268B1E5FDC3100205A93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE92268C1E5FDC3100205A93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE92268E1E5FDC3100205A93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE92268F1E5FDC3100205A93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE9226921E5FDC3100205A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE9226941E5FDC3100205A93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE9226971E5FDC3100205A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE9226991E5FDC3100205A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9226A01E5FDD3900205A93 /* RoundWavesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundWavesView.h; sourceTree = "<group>"; };
+		AE9226A11E5FDD3900205A93 /* RoundWavesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundWavesView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE9226821E5FDC3100205A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE92267C1E5FDC3100205A93 = {
+			isa = PBXGroup;
+			children = (
+				AE9226871E5FDC3100205A93 /* RoundWaves */,
+				AE9226861E5FDC3100205A93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE9226861E5FDC3100205A93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE9226851E5FDC3100205A93 /* RoundWaves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE9226871E5FDC3100205A93 /* RoundWaves */ = {
+			isa = PBXGroup;
+			children = (
+				AE92269F1E5FDCD400205A93 /* RoundWavesView */,
+				AE92268B1E5FDC3100205A93 /* AppDelegate.h */,
+				AE92268C1E5FDC3100205A93 /* AppDelegate.m */,
+				AE92268E1E5FDC3100205A93 /* ViewController.h */,
+				AE92268F1E5FDC3100205A93 /* ViewController.m */,
+				AE9226941E5FDC3100205A93 /* Assets.xcassets */,
+				AE9226961E5FDC3100205A93 /* LaunchScreen.storyboard */,
+				AE9226911E5FDC3100205A93 /* Main.storyboard */,
+				AE9226991E5FDC3100205A93 /* Info.plist */,
+				AE9226881E5FDC3100205A93 /* Supporting Files */,
+			);
+			path = RoundWaves;
+			sourceTree = "<group>";
+		};
+		AE9226881E5FDC3100205A93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9226891E5FDC3100205A93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE92269F1E5FDCD400205A93 /* RoundWavesView */ = {
+			isa = PBXGroup;
+			children = (
+				AE9226A01E5FDD3900205A93 /* RoundWavesView.h */,
+				AE9226A11E5FDD3900205A93 /* RoundWavesView.m */,
+			);
+			path = RoundWavesView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE9226841E5FDC3100205A93 /* RoundWaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE92269C1E5FDC3100205A93 /* Build configuration list for PBXNativeTarget "RoundWaves" */;
+			buildPhases = (
+				AE9226811E5FDC3100205A93 /* Sources */,
+				AE9226821E5FDC3100205A93 /* Frameworks */,
+				AE9226831E5FDC3100205A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundWaves;
+			productName = RoundWaves;
+			productReference = AE9226851E5FDC3100205A93 /* RoundWaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE92267D1E5FDC3100205A93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "郝高明";
+				TargetAttributes = {
+					AE9226841E5FDC3100205A93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UFNG52WUQ7;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AE9226801E5FDC3100205A93 /* Build configuration list for PBXProject "RoundWaves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE92267C1E5FDC3100205A93;
+			productRefGroup = AE9226861E5FDC3100205A93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE9226841E5FDC3100205A93 /* RoundWaves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE9226831E5FDC3100205A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9226981E5FDC3100205A93 /* LaunchScreen.storyboard in Resources */,
+				AE9226951E5FDC3100205A93 /* Assets.xcassets in Resources */,
+				AE9226931E5FDC3100205A93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE9226811E5FDC3100205A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9226A21E5FDD3900205A93 /* RoundWavesView.m in Sources */,
+				AE9226901E5FDC3100205A93 /* ViewController.m in Sources */,
+				AE92268D1E5FDC3100205A93 /* AppDelegate.m in Sources */,
+				AE92268A1E5FDC3100205A93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE9226911E5FDC3100205A93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE9226921E5FDC3100205A93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE9226961E5FDC3100205A93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE9226971E5FDC3100205A93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE92269A1E5FDC3100205A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE92269B1E5FDC3100205A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE92269D1E5FDC3100205A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFNG52WUQ7;
+				INFOPLIST_FILE = RoundWaves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artron.RoundWaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c431cd05-9d69-4b8a-a06a-6049daa3b117";
+				PROVISIONING_PROFILE_SPECIFIER = shenzhenInhouse_development;
+			};
+			name = Debug;
+		};
+		AE92269E1E5FDC3100205A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UFNG52WUQ7;
+				INFOPLIST_FILE = RoundWaves/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.artron.RoundWaves;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c431cd05-9d69-4b8a-a06a-6049daa3b117";
+				PROVISIONING_PROFILE_SPECIFIER = shenzhenInhouse_development;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE9226801E5FDC3100205A93 /* Build configuration list for PBXProject "RoundWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE92269A1E5FDC3100205A93 /* Debug */,
+				AE92269B1E5FDC3100205A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE92269C1E5FDC3100205A93 /* Build configuration list for PBXNativeTarget "RoundWaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE92269D1E5FDC3100205A93 /* Debug */,
+				AE92269E1E5FDC3100205A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE92267D1E5FDC3100205A93 /* Project object */;
+}
